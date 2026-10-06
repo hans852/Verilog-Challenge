@@ -1,10 +1,11 @@
-module top_module( 
+module top_module ( 
     input a,b,c,
-    output w,x,y,z );
-    
-    assign w = a,
-        x = b,
-        y = b,
-        z = c;
+    output w,x,y,z 
+);
+
+    assign w = a;
+    assign x = b;
+    assign y = b;
+    assign z = c;
 
 endmodule
